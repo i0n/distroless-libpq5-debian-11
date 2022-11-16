@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 NAME := distroless-libpq5-debian11
-CONTAINER_NAME := i0nw/distroless/libpq5-debian11
+CONTAINER_NAME := i0nw/distroless:libpq5-debian11
 
 REV := $(shell git rev-parse --short HEAD 2> /dev/null || echo 'unknown')
 BRANCH     := $(shell git rev-parse --abbrev-ref HEAD 2> /dev/null  || echo 'unknown')
